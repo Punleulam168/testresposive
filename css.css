@@ -101,8 +101,10 @@
     color: white;
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -150,38 +152,39 @@
 
 /*Extra small devices (portrait phones, less than 576px)*/
 
-@media (max-width: 450px) {
+@media (max-width: 575.98px) {
     .menu ul li a {
-       font-size: 12px;
+       font-size: 15px;
        padding: 5px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-right: 10px;
        
     }
 
     .container .Header h1 {
         text-align: left;
         padding-left: 10px;
+        text-align: center;
     }
 
-    .container .Header p {
-        text-align: left;
+    .container .Header .text p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 15px;
-        width: 400px;
+        width: 325px;
     }
 
     .cover .box .photo {
         width: 90%;
         height: 60%;
         margin: auto;
+        text-align: center;
     }
 
     .cover .box .box-txt {
-        width: 100%;
+        width: 95%;
         height: 60%;
-        margin: auto;
+      
+        text-align: center;
 
     }
 }
