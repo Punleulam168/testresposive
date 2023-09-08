@@ -1,6 +1,9 @@
 .container {
     /*contatner is mean bootstrap auto navbar*/
     background-color: rgb(47, 158, 162);
+    width: auto;
+    height: 50px;
+  
 }
 
 .menu ul {
@@ -131,5 +134,12 @@
         padding: 0px;
         font-size: 15px;
         justify-content: flex-start;
+    }
+    .container{
+        width: auto;
+    }
+    .cover .box .box-txt p {
+        font-size: 10px;
+        margin-bottom: 10px;
     }
 }
